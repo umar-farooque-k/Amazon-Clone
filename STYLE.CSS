@@ -1,0 +1,178 @@
+/* Reset basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* Header styles */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #232f3e;
+    padding: 10px 20px;
+    color: white;
+}
+
+.logo img {
+    width: 120px;
+}
+
+.search-bar {
+    display: flex;
+    flex-grow: 1;
+    margin: 0 20px;
+}
+
+.search-bar input {
+    flex-grow: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 4px 0 0 4px;
+}
+
+.search-bar button {
+    padding: 10px 15px;
+    background-color: #febd69;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+.user-options {
+    display: flex;
+    align-items: center;
+}
+
+.user-options div {
+    margin: 0 15px;
+    color: #ffffff;
+}
+
+.cart a {
+    color: white;
+    background-color: #f08804;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+/* Navigation bar */
+.navbar {
+    background-color: #37475a;
+    padding: 10px 20px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar ul li {
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+/* General Card Styles (for products, categories, and best sellers) */
+.card-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    background-color: white;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    width: 200px;
+}
+
+.card img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.card p {
+    font-weight: bold;
+    color: #b12704;
+}
+
+/* Products Section */
+.products {
+    padding: 20px;
+    background-color: white;
+}
+
+.products h2 {
+    margin-bottom: 20px;
+}
+
+/* Featured Categories Section */
+.featured-categories {
+    padding: 20px;
+    background-color: white;
+}
+
+.featured-categories h2 {
+    margin-bottom: 20px;
+}
+
+/* Best Sellers Section */
+.best-sellers {
+    padding: 20px;
+    background-color: white;
+}
+
+.best-sellers h2 {
+    margin-bottom: 20px;
+}
+
+/* Footer */
+.footer {
+    background-color: #232f3e;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-links ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-links ul li {
+    margin: 0 15px;
+}
+
+.footer-links ul li a {
+    color: white;
+    font-size: 14px;
+}
